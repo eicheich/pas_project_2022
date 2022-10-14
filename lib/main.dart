@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pas_project_2022/View/test.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyApp(),
+      home: const test(),
     );
   }
 }
